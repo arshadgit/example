@@ -1,0 +1,22 @@
+Create a dedicated folder 
+Go to the terminal or vscode
+
+1)	Creating virtual environment:
+    Py -m venv <virtual environment name>
+
+2)	Activate virtual env 
+    <venv name>/Scripts/activate.bat
+
+3)	Install Django:
+    Py -m pip install django
+    django-admin --version    #to check version
+
+4) Django Create Project:
+    django-admin startproject <project_name>
+
+5) Run the Django Project: 
+    py manage.py runserver 
+    
+6) Create App:
+    py manage.py startapp <appname>
+    
